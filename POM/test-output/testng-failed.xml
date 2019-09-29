@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="POM.testcases.NewcustomerTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="customer"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- POM.testcases.NewcustomerTest -->
+      <class name="POM.testcases.EditCustomerTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="EditCust"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- POM.testcases.EditCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
